@@ -21,7 +21,7 @@
     <![endif]-->
 
     <script id="__ENTRY__" type="application/json">
-      {".js":["rise/204ffe47.js"]}
+      {".js":["rise/6efb3da3.js"]}
     </script>
 
     <script id="__REMOTE_ENTRIES__" type="application/json">
@@ -160,6 +160,23 @@
 
     
     <script>__loadEntry()</script>
+
+    <script type="text/javascript">
+      (function(d, t) {
+          var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+          v.onload = function() {
+            window.voiceflow.chat.load({
+              verify: { projectID: '67b35e724134dbcf3ae9ad16' },
+              url: 'https://general-runtime.voiceflow.com',
+              versionID: 'production', 
+              voice: { 
+                url: "https://runtime-api.voiceflow.com" 
+              }
+            });
+          }
+          v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+      })(document, 'script');
+    </script> 
     
   </body>
 </html>
